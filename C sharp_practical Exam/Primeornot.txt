@@ -1,0 +1,29 @@
+class Primeornot
+{
+   public static void Main(String[]args)
+{
+
+  Console.writeLine("Enter the number ");
+  int num =parse.int(Console.ReadLine());
+
+        int count = 0;
+
+        for (int i = 1; i <= num; i++)
+        {
+            if (num % i == 0)
+            {
+                count++;
+            }
+        }
+
+        if (count == 2)
+            Console.writeline("Prime Number");
+        else
+            Console.WriteLine("Not a Prime Number");
+    }
+
+}
+
+
+
+}
